@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 48px;
+}
+
+.header {
+    padding: 120px;
+    bottom: 100px;
+}
+
+.header h1 {
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.line {
+    width: 100px;
+    height: 6px;
+    bottom: 10px;
+    left: 0px;
+    border-radius: 60px;
+    background-color: #007BFF;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item {
+    width: 1200px;
+    height: 160px;
+    bottom: 200px;
+    left: 120px;
+    border: 1px;
+    border-style: solid;
+    border-color: #32323232;
+    background-color: #FBFBFB;
+}
+
+.image {
+    margin: 20px;
+}
+
+.item-header {
+    bottom: 170px;
+    left: 160px;
+}
+
+.item-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #323232;
+}
+
+.current-price {
+    bottom: 135px;
+    left: 160px;
+}
+
+.current-price h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #28A745;
+}
+
+.previous-price {
+    bottom: 175px;
+    left: 220px;
+}
+
+.previous-price p {
+    position: absolute;
+    width: 45px;
+    height: 37px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 37px;
+    text-decoration-line: line-through;
+    color: #DC3545;
+}
+
+.minus,.counter,.plus {
+    width: 45px;
+    height: 45px;
+    bottom: 175px;
+    left: 1040px;
+    border: 1px solid #32323232;
+    user-select: none;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons a{
+    font-family: Glory;
+    font-size: 34px;
+    font-weight: 400;
+    margin: auto;
+    left: 15px;
+    bottom: 30px;
+    cursor: pointer;
+}
+.counter a{
+    cursor:default;
+
+}
+.counter a{
+    font-family: Glory;
+font-size: 28px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+}
+.x{
+    cursor: pointer;
+}
+.x img{
+    bottom: 320px;
+    left: 1128px;
+    height: 48px;
+    width: 48px;
+}
